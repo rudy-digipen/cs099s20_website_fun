@@ -49,7 +49,7 @@ function draw() {
 
 function mouseWheel(event){
   console.log(event.delta);
-  size_scale += event.delta / 100;
+  size_scale += event.delta / 1000;
   // size_scale = size_scale + event.delta
   
 }
